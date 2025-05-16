@@ -1,1 +1,52 @@
-<p>header works!</p>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Agendar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>         
+
+            <li class="nav-item" ngbDropdown>
+                <a class="nav-link" tabindex="0" ngbDropdownToggle id="navbarDropdown1" role="button">Cadastro</a>
+                <div ngbDropdownMenu aria-labelledby="navbarDropdown1" class="dropdown-menu">
+                    <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Área</a>
+                    <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Profissional</a>
+                    <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Tipo de Atendimento</a>
+                    <hr class="dropdown-divider">
+                    <ngbDropdownItem ngbDropdownItem href="#" (click)="$event.preventDefault()">Cliente</ngbDropdownItem>
+                     <hr class="dropdown-divider">
+                     <ngbDropdownItem ngbDropdownItem href="#" (click)="$event.preventDefault()">Atendimento</ngbDropdownItem>
+
+
+                </div>
+            </li>  
+
+             <li class="nav-item" ngbDropdown>
+                <a class="nav-link" tabindex="0" ngbDropdownToggle id="navbarDropdown1" role="button">Agendamentos</a>
+                <div ngbDropdownMenu aria-labelledby="navbarDropdown1" class="dropdown-menu">
+                    <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Hoje</a>
+                    <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Agendar</a>
+                    <a ngbDropdownItem href="#" (click)="$event.preventDefault()">Cancelar</a>
+                    <hr class="dropdown-divider">
+                    <ngbDropdownItem ngbDropdownItem href="#" (click)="$event.preventDefault()">Historico de Clinetes</ngbDropdownItem>
+                     <hr class="dropdown-divider">
+                     <ngbDropdownItem ngbDropdownItem href="#" (click)="$event.preventDefault()">Agenda Profissional</ngbDropdownItem>
+
+
+                </div>
+            </li>  
+             
+        </ul>
+        <form class="d-flex">
+           <div class="my-auto me-4">
+            Atendente: <span class="fw-bold">Maria da Silva</span>
+           </div>
+          <button class="btn btn-outline-secondary" type="submit">Sair</button>
+        </form>
+      </div>
+    </div>
+  </nav>
