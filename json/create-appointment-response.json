@@ -1,0 +1,20 @@
+{
+    "id": 35,
+    "date": "2022-02-02T16",
+    "startTime": "2022-02-02T16:00:00",
+    "endTime": "2022-02-02T16:30:00",
+    "commments": "no commments",
+    "status": "OPEN",
+    "type": {
+        "id": 1
+    },
+    "area": {
+        "id": 2
+    },
+    "professional": {
+        "id": 5
+    },
+    "client": {
+        "id": 2
+    }
+}
