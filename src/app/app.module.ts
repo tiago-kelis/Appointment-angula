@@ -5,16 +5,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SharedModule } from './shared/shared.module';
+import { HomeModule } from './modules/home/home.module';
+import { MaintenanceModule } from './modules/maintenance/maintenance.module';
+import { ScheduleModule } from './modules/schedule/schedule.module';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HomeModule,        
     NgbModule,
-    SharedModule
+    SharedModule,
+    MaintenanceModule,
+    ScheduleModule
   ],
   providers: [
     provideClientHydration()

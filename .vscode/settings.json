@@ -1,0 +1,13 @@
+{
+   "material-icon-theme.folders.associations": {
+    "maintenance": "Stack",
+    "schedule": "lottie",
+    "home-page": "admin",
+    "appointment-type-page": "dist",
+    "area-page": "dist",
+    "professional-page": "dist",
+    "client-page": "dist",
+    "user-page": "dist"
+    
+   }
+}

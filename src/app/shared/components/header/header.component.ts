@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  getRealName() {
+    return 'Maria da Silva';
+  }
+
+
+  isAdmin(): boolean {
+    return true;
+  }
+
+  logout() {
+    console.log('logout');
+  }
 
 }
